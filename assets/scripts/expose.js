@@ -41,7 +41,6 @@ document.getElementById("volume").oninput = function(){
 
 let butt = document.querySelector("button")
   butt.addEventListener('click', (event) => {
-    console.log(pict);
       let ad = document.querySelector("audio");
       if(pict == "air-horn"){
         ad.src = "assets/audio/air-horn.mp3"
